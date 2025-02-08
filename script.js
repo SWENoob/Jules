@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
 
     function pictureChange() {
-        document.getElementsByClassName('gif')[0].src="snoopy-cry.gif";
+        document.getElementsByClassName('gif')[0].src="cry.jpg";
     }
 
     noButton.addEventListener('click', (e) => {
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
 
     yesButton.addEventListener('click', (e) => {
-        document.getElementsByClassName('gif')[0].src="yes.gif";
+        document.getElementsByClassName('gif')[0].src="yey.jpg";
         yesButton.style.display = "none"
         noButton.style.display = "none"
         const fq = document.getElementById("fq")
